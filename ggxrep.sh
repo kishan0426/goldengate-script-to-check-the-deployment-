@@ -196,9 +196,9 @@ audit_deployment() {
 # ==============================================================================
 # EXECUTE DEPLOYMENT AUDITS
 # ==============================================================================
-audit_deployment "rep" "http://host.com:6800" "REP"
-audit_deployment "usage" "http://host.com:6300" "USG"
-audit_deployment "billrep_trg" "http://pd10sclbildb.i.jaspersystems.com:6500" "BILL"
+audit_deployment "abc" "http://host.com:6800" "abc"
+audit_deployment "bce" "http://host.com:6300" "bce"
+audit_deployment "cde" "http://host:6500" "cde"
 
 echo ""
 echo "==================================================================="
